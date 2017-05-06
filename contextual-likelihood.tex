@@ -87,7 +87,7 @@
 \begin{document}
 
 %% Title information
-\title{Deriving the Statistical Likelihood of a Suggestion}         %% [Short Title] is optional;
+\title{Deriving the Statistical Likelihood of a Suggestion in Context}         %% [Short Title] is optional;
                                         %% when present, will be used in
                                         %% header instead of Full Title.
 % \titlenote{with title note}             %% \titlenote is optional;
@@ -169,6 +169,7 @@
 %% Note: \begin{abstract}...\end{abstract} environment must come
 %% before \maketitle command
 \begin{abstract}
+\todo{abstract}
 % An automated programmer's assistant capable of intelligently generating the code that the programmer would have written herself has long been seen as a grand challenge in computing. 
 % When writing a program, how likely is it that a programmer will construct a particular term at a particular location within a larger term? 
 \end{abstract}
@@ -208,13 +209,10 @@
 \maketitle
 
 \input{intro}
-
-\section{Background: Hazelnut}
-
-\section{A Calculus of Contextual Term Likelihoods}
-
-\section{A Calculus of Contextual Action Likelihoods}
-
-
+\input{background}
+\input{term-calculus}
+\input{action-calculus}
+\input{related-work}
+\input{discussion}
 
 \end{document}
